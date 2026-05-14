@@ -1,0 +1,10 @@
+@Metadata.layer: #CORE
+annotate entity ZC_Travel_Vishal
+    with 
+{
+ @UI.lineItem: [{ position: 10, label: 'Travel'  }]
+ @UI.selectionField: [{position: 10  }]
+ @Search.defaultSearchElement: true
+ TravelId;
+ 
+}
